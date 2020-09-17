@@ -28,4 +28,4 @@ We also cut out all television shows from the list in order to hit our total cap
 
 Finally, after merging all of our filtered-down data frames together we were left with over 1 million rows, and had to make one final cut. We took only the entries for movies that had recieved 90,000 ratings or more, which left us with about 9,100 rows to be loaded into MongoDB.
 
-![final-data](Images\https://github.com/BenFarniok/project_etl/raw/master/Images/FinalData.png.png)
+![final-data](Images\https://github.com/BenFarniok/project_etl/raw/master/Images/FinalData.png)
