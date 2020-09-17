@@ -20,7 +20,7 @@ These data sets contain a huge amount of information, but was in need of some cl
 
 First, we started by cleaning the data of various incomplete entries, may sported the text "\N" which indicates a user inputting data and hitting the "enter" key to move on to the next line. We also filtered out "N/A" values in the same line.
 
-![principles-data](Images\PrincipalsData.png)
+![principles-data](https://github.com/BenFarniok/project_etl/raw/master/Images/PrincipalsData.png)
 
 In need of further shortening, we removed all rows from the principals dataset if they did not contain the words "actor, actress or director," as many rows simply didn't have proper entries in the "category" column and we were mostly interested in making a tool to see statistics around those three roles.
 
@@ -28,4 +28,4 @@ We also cut out all television shows from the list in order to hit our total cap
 
 Finally, after merging all of our filtered-down data frames together we were left with over 1 million rows, and had to make one final cut. We took only the entries for movies that had recieved 90,000 ratings or more, which left us with about 9,100 rows to be loaded into MongoDB.
 
-![final-data](Images\PrincipalsData.png)
+![final-data](Images\https://github.com/BenFarniok/project_etl/raw/master/Images/FinalData.png.png)
